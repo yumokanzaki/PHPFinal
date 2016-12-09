@@ -6,29 +6,10 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />	
 </head>
 <body>
-	<span id="background"></span>
-	<div id="page">
-		<div id="sidebar">
-			<div id="logo">
-				<a href="index.php">Welcome to the <br/> <em>Attack on Titan Database</em></a>
-			</div> <!-- /#logo -->
-			<ul id="navigation">
-				<li><a href="about.php">About</a></li>
-				<li><a href="index.php">Illustrations</a></li>
-				<li><a href="images.php">Selected Images</a></li>
-				<li class="selected"><a href="contact-us.php">Contact Us</a></li>
-				<li><a href="blog.php">Blog</a></li>
-			</ul> <!-- /#navigation -->
-			<ul id="connect">
-				<li><a href="http://facebook.com/" target="_blank" class="facebook"></a></li>
-				<li><a href="http://twitter.com/" target="_blank" class="twitter"></a></li>
-				<li><a href="" class="link-us"></a></li>
-			</ul> <!-- /#connect -->
-			<div class="footer">
-				&copy; Copyright &copy; 2016.<br/>
-				<a href="index.php">Company name</a> all rights reserved.
-			</div> <!-- /.footer -->
-		</div> <!-- /#sidebar -->		
+	<?php	
+	include "phpheader.php"
+	?>
+<!-- /#sidebar -->		
 		<div id="contents">
 			<span class="header"></span>
 			<div>
@@ -40,11 +21,16 @@
 			 Monday - Thursday  :  8:30am - 12:00pm; 1:00pm - 5:30pm<br>
 			 Lunch Hours : 12:00pm - 1:00pm <br>
 			 Friday, Saturday, Sunday  :  Closed </p>
-			<br>
 			<p><strong> Or email us at : </strong></p>
 				<address>
 					AOTDATABASE@DATACENTER.ORG
 				</address>
+				<p><strong> Feel free to leave some feedback : </strong></p></br>
+				<form action = "feedback.php" method = "post">
+					Username : <input type= "text" name = "name" /><br><br>
+					<textarea name = "textfield" rows = "10" cols = "50"  id = "feedback"> </textarea><br>
+					<input type = "submit" name = "comment" value = "Submit!" />
+				</form>
 			</div>
 			<ul class="images">
 				<li><img src="images/sexy-girl.jpg" alt="Img" /></li>
