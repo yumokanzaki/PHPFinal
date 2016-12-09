@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Artist Website Template</title>
+	<title>Attack on Titan Database - Blog</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />	
 </head>
 <body>

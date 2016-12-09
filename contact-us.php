@@ -25,7 +25,7 @@
 				<address>
 					AOTDATABASE@DATACENTER.ORG
 				</address>
-				<p><strong> Feel free to leave some feedback : </strong></p></br>
+				<p><strong> Feel free to leave some feedback : </strong></p>
 				<form action = "feedback.php" method = "post">
 					Username : <input type= "text" name = "name" /><br><br>
 					<textarea name = "textfield" rows = "10" cols = "50"  id = "feedback"> </textarea><br>

@@ -12,7 +12,7 @@
 <!-- /#sidebar -->		
 		<div id="contents">
 			<span class="header"></span>
-			<ul class="images">
+			<ul class="images">				
 				<li><img src="images/illustration1.jpg" alt="Img" /></li>
 				<li><img src="images/illustration2.jpg" alt="Img" /></li>
 				<li><img src="images/leaves.jpg" alt="Img" /></li>
