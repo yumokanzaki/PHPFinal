@@ -21,7 +21,7 @@
 				<span>About the Titans</span>
 				<p>
 					With our site expeanding everyday we doing all that we can to give you all of the most updates to date information on Titans from their behavior to the types of Titans out there. We also go into depth as to how they recover
-					and elaborate as to way they may potentially reproduce. If you want to know more,	<a href="#">Click here</a>.
+					and elaborate as to way they may potentially reproduce. If you want to know more,	<a href="database.php">Click here</a>.
 				</p>
 				<span>About gear</span>
 				<p>

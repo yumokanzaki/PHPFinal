@@ -19,25 +19,25 @@
 			<div class="footer">
 				&copy; Copyright &copy; 2016.<br/>
 				<a href="index.php">Company name</a> all rights reserved.
-				<script>
-function Clock() 
-{
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-		m = checkTime(m);
-		s = checkTime(s);
-		document.getElementById('txt').innerHTML =
-		h + ":" + m + ":" + s;
-    var t = setTimeout(Clock, 500);
-}
-function checkTime(i) 
-{
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-    return i;
-}
-</script>
+						<script>
+								function Clock() 
+								{
+									var today = new Date();
+									var h = today.getHours();
+									var m = today.getMinutes();
+									var s = today.getSeconds();
+										m = checkTime(m);
+										s = checkTime(s);
+										document.getElementById('txt').innerHTML =
+										h + ":" + m + ":" + s;
+									var t = setTimeout(Clock, 500);
+								}
+								function checkTime(x) 
+								{
+									if (x < 10) {x = "0" + x};  // add zero in front of numbers < 10
+									return x;
+								}
+						</script>
 		<body onload="Clock()">
 <div id="txt"></div>			
 			</div> <!-- /.footer -->
