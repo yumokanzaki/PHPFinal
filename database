@@ -1,0 +1,29 @@
+CREATE TABLE `titaninfo` (
+  `ID` decimal(10,0) NOT NULL,
+  `Titanname` varchar(30) NOT NULL,
+  `TitanInfo` varchar(600) NOT NULL,
+  `SpecialType` tinyint(1) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+Connected successfully
+
+
+Index No: 1
+Titan Name:Typical Titan
+Information :These Titans compose most of the Titan population and range from 3-15 meters in height. Though there is a wide variation of them, they all target the first human they come across. Some walk on two feet, others on all fours They show no level of intellegence and cannot properly digest the humans they catch. To an extent they resemble human males with deformities. Though they may not be intellegent thier size strength and numbers make them very dangerous threats.
+Special :0
+
+Index No: 2
+Titan Name:Abnormal Titan
+Information :These Titans display abnormal behavior or some form of intellegence. Fortunately, they in most cases ignore humans. On the down side, they target areas where they can do the most damage in least amount of time.
+Special :0
+
+Index No: 3
+Titan Name:Wall Titan
+Information :These Titans were first discovered inside Wall Sheena. The appearance they have resemble that of the Colossus Titan. Due to the lack of sunlight, they are weak and immobile.
+Special :0
+
+Index No: 4
+Titan Name:Titan Shifter
+Information :Though they are technically human, they can tansform into Titans who have various traits and skills that can be honed and directed with purpose. Some examples being speed, retention of intellegence strength, and even amass to huge sizes. These Titans normally resemble their human form and have a better healing factor and the host can leave the Titan body returning to a new one in minutes.
+Special :1
